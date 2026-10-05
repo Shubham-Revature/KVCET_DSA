@@ -15,7 +15,7 @@ By the end of this topic, you will be able to:
 
 ## Overview
 
-When faced with a new programming problem, the most common mistake is to start typing Python code immediately. This usually leads to getting stuck, writing messy code, and failing tests. Real software engineers spend most of their time *thinking* about the problem and planning the logic. Coding is just the final step where you translate your logic into a language the computer understands. 
+When solving a new programming problem, don’t start coding right away. First, understand the problem and plan the logic. This helps you avoid getting stuck, writing messy code, and failing tests. Once the logic is clear, coding becomes much easier—you simply turn your solution into Python code.
 
 In this topic, we will look at a reliable, repeatable 4-step framework you can use to solve any algorithmic problem.
 

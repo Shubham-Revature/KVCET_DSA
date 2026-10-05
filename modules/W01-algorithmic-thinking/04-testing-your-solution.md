@@ -1,34 +1,8 @@
 # Testing Your Solution
 
----
-
-## Learning Objectives
-
-By the end of this topic, you will be able to:
-
-- Explain the importance of the **test-your-solution discipline**.
-- Perform a manual **dry run** (desk check) of your algorithm to find logical errors before running the code.
-- Write basic Python `assert` statements to automatically verify your code against different test cases.
-- Differentiate between "Happy Path" testing and "Edge Case" testing.
-
----
-
-## Overview
-
 A common trap for junior engineers is the belief that "if the code runs without an error message, it must be correct." In reality, a program that runs perfectly can still produce completely wrong answers (a logical error). 
 
 In the real world, you don't submit code to your manager and hope it works. You submit code *along with proof* that it works. This is the **test-your-solution discipline**. By thoroughly testing your own code, you catch embarrassing bugs before anyone else sees them.
-
----
-
-## Quick Glossary
-
-| Term | Meaning |
-|---|---|
-| **Test-Your-Solution Discipline** | The professional habit of actively trying to break your own code to prove it works. |
-| **Happy Path** | The default, expected scenario where normal inputs are provided. |
-| **Dry Run / Desk Checking** | Manually stepping through your code line-by-line with a pen and paper. |
-| **`assert` Statement** | A Python keyword used to test if a condition is `True`. If it is `False`, the program crashes with an `AssertionError`. |
 
 ---
 
@@ -139,6 +113,17 @@ All tests passed!
 ## Key Takeaway
 
 Never submit code without testing it first. Use the **dry run** technique to mentally trace your logic and find bugs early. When translating logic to code, use Python's `assert` statements to build automated tests covering both the expected **happy path** and the tricky **edge cases**.
+
+---
+
+## Quick Glossary
+
+| Term | Meaning |
+|---|---|
+| **Test-Your-Solution Discipline** | The professional habit of actively trying to break your own code to prove it works. |
+| **Happy Path** | The default, expected scenario where normal inputs are provided. |
+| **Dry Run / Desk Checking** | Manually stepping through your code line-by-line with a pen and paper. |
+| **`assert` Statement** | A Python keyword used to test if a condition is `True`. If it is `False`, the program crashes with an `AssertionError`. |
 
 ---
 
