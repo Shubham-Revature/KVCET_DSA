@@ -41,7 +41,7 @@ Using a standard list for a Queue in an interview is an instant red flag.
 
 ### The Solution: `collections.deque`
 
-As we learned in Week 5, Python provides a highly optimized Doubly Linked List called a **Deque** (Double-Ended Queue). Because it uses pointers instead of contiguous memory, it can remove items from the front instantly without shifting!
+Leveraging the Doubly Linked List concepts we learned in Week 5, Python provides a highly optimized built-in data structure called a **Deque** (Double-Ended Queue). Because it uses pointers instead of contiguous memory, it can remove items from the front instantly without shifting!
 
 ```python
 from collections import deque
